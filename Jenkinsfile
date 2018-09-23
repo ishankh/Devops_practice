@@ -1,11 +1,5 @@
-pipeline {
-agent any
-stages{
+node {
 stage('test')
 {
-steps{
 sh 'echo "hello world"' 
-}
-}
-}
 }
